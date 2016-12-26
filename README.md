@@ -1,8 +1,7 @@
 # basic-css
-All in one very basic CSS for modern browser and website
+An all in one, minimal and very basic CSS for modern browser and website.
 
-## Including 
-* Basic reset
+## Overview 
+* Minimal browser default styling reset
 * 12-columns grid system
 * Common helpers
-
