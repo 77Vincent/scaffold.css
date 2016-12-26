@@ -30,14 +30,6 @@ button:focus {
 }
 
 /********************* Grid System *********************/
-.row:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-.col {
-    float: left;
-}
 .col-12  { width: 100%; }
 .col-11  { width: 91.66%; }
 .col-10  { width: 83.33%; }
