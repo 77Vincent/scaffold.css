@@ -1,7 +1,7 @@
 {
   "name": "scaffold.css",
   "version": "1.0.0",
-  "description": "All in one, very basic but useful CSS for scaffolding modern websites for modern browsers.",
+  "description": "All in one normalizing CSS for scaffolding modern websites.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
     "css"
   ],
   "author": "77Vincent",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/77Vincent/scaffold.css/issues"
   },

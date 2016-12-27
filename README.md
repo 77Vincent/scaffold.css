@@ -1,5 +1,5 @@
 # Scaffold.css 
-An all in one, very basic but useful CSS for scaffolding morden websites for modern browsers.
+An all in one normalizing CSS for scaffolding morden websites.
 
 ## Overview 
 * Minimal browser normalizations
