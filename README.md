@@ -1,5 +1,5 @@
-# basic-css
-An all in one, minimal and very basic CSS for modern browser and website.
+# Scaffold.css 
+An all in one, very basic but useful CSS for scaffolding morden websites for modern browsers.
 
 ## Overview 
 * Minimal browser default styling reset

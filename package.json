@@ -1,0 +1,25 @@
+{
+  "name": "scaffold.css",
+  "version": "1.0.0",
+  "description": "All in one, very basic but useful CSS for scaffolding modern websites for modern browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/77Vincent/scaffold.css.git"
+  },
+  "keywords": [
+    "basic",
+    "normalize",
+    "scaffold",
+    "css"
+  ],
+  "author": "77Vincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/77Vincent/scaffold.css/issues"
+  },
+  "homepage": "https://github.com/77Vincent/scaffold.css#readme"
+}
