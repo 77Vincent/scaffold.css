@@ -52,6 +52,9 @@ a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
 }
+input[type="submit"] {
+    background-color: transparent;
+}
 
 /**
  * 1. Remove the bottom border in Firefox 39-.
