@@ -317,9 +317,9 @@ template {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-a:hover, button:hover,
-a:active, button:active,
-a:focus, a:focus {
+:hover,
+:active,
+:focus {
     outline-width: 0;
 }
 a, img {
