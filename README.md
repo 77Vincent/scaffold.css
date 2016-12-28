@@ -7,5 +7,12 @@ An all in one normalizing CSS for scaffolding morden websites.
 * Common helpers
 
 ## Installation
+Through npm
+
     npm install --save scaffold.css
-or just embed scaffold.css into your project
+    
+Then import into your project
+    
+    import 'scaffold.css';
+    
+<sub>or just embed scaffold.css into your project</sub>
