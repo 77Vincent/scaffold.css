@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/vincent/projects/scaffold.css',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/vincent/.npm/scaffold.css/1.0.4/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/vincent/.npm correctMkdir not in flight; initializing
+10 info lifecycle scaffold.css@1.0.4~prepublish: scaffold.css@1.0.4
+11 silly lifecycle scaffold.css@1.0.4~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/vincent/.npm/scaffold.css/1.0.4/package.tgz',
+12 verbose tar pack   '/Users/vincent/projects/scaffold.css' ]
+13 verbose tarball /Users/vincent/.npm/scaffold.css/1.0.4/package.tgz
+14 verbose folder /Users/vincent/projects/scaffold.css
+15 verbose addLocalTarball adding from inside cache /Users/vincent/.npm/scaffold.css/1.0.4/package.tgz
+16 verbose correctMkdir /Users/vincent/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd scaffold.css@1.0.4
+18 verbose afterAdd /Users/vincent/.npm/scaffold.css/1.0.4/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/vincent/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/vincent/.npm/scaffold.css/1.0.4/package/package.json written
+21 silly publish { name: 'scaffold.css',
+21 silly publish   version: '1.0.4',
+21 silly publish   description: 'All in one normalizing CSS for scaffolding modern websites.',
+21 silly publish   main: 'scaffold.css',
+21 silly publish   style: 'scaffold.css',
+21 silly publish   scripts: {},
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/77Vincent/scaffold.css.git' },
+21 silly publish   keywords: [ 'basic', 'normalize', 'scaffold', 'css' ],
+21 silly publish   author: { name: '77Vincent' },
+21 silly publish   license: 'MIT',
+21 silly publish   bugs: { url: 'https://github.com/77Vincent/scaffold.css/issues' },
+21 silly publish   homepage: 'https://github.com/77Vincent/scaffold.css#readme',
+21 silly publish   readme: '# Scaffold.css \nAn all in one normalizing CSS for scaffolding morden websites.\n\n## Overview \n* Minimal browser normalizations\n* 12-columns grid system\n* Common helpers\n\n## Installation\nThrough npm\n\n    npm install --save scaffold.css\n    \nThen import into your project\n    \n    import \'scaffold.css\';\n    \n<sub>or just embed scaffold.css into your project</sub>\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'b063d64d227b79ad0a08e067b07caff2bdd22469',
+21 silly publish   _id: 'scaffold.css@1.0.4',
+21 silly publish   _shasum: 'efd203d61bf2ab0f6decf303ba1efaaaec2f4f6f',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name scaffold.css
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'scaffold.css',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'scaffold.css',
+26 silly mapToRegistry   name: 'scaffold.css',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/scaffold.css
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/vincent/.npm/scaffold.css/1.0.4/package.tgz
+30 verbose stack Error: auth required for publishing
+30 verbose stack     at CachingRegistryClient.publish (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+30 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:138:14
+30 verbose stack     at mapToRegistry (/usr/local/lib/node_modules/npm/lib/utils/map-to-registry.js:62:3)
+30 verbose stack     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:107:3)
+30 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+30 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+30 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+30 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+30 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:73:5
+30 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+31 verbose cwd /Users/vincent/projects/scaffold.css
+32 error Darwin 16.1.0
+33 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+34 error node v6.9.1
+35 error npm  v3.10.8
+36 error code ENEEDAUTH
+37 error need auth auth required for publishing
+38 error need auth You need to authorize this machine using `npm adduser`
+39 verbose exit [ 1, true ]

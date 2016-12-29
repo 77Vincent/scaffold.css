@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+cd "${0%/*}"
+
+git status
+npm publish
+git add .
+git commit -m "update"
+git push
