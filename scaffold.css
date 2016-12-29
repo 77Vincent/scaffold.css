@@ -450,9 +450,6 @@ template {
 html {
     font-size: 1em;
 }
-body {
-    font-size: 100%;
-}
 html, body {
     margin: 0px;
 	padding: 0px;
@@ -460,7 +457,6 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-style: normal;
-    font-size: 100%;
 }
 *, 
 *:after,

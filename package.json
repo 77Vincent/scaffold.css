@@ -1,6 +1,6 @@
 {
   "name": "scaffold.css",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "All in one normalizing CSS for scaffolding modern websites.",
   "main": "scaffold.css",
   "style": "scaffold.css",
