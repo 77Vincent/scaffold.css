@@ -41,11 +41,11 @@
 21 silly publish   license: 'MIT',
 21 silly publish   bugs: { url: 'https://github.com/77Vincent/scaffold.css/issues' },
 21 silly publish   homepage: 'https://github.com/77Vincent/scaffold.css#readme',
-21 silly publish   readme: '# Scaffold.css \nAn all in one normalizing CSS for scaffolding morden websites.\n\n## Overview \n* Minimal browser normalizations\n* 12-columns grid system\n* Common helpers\n\n## Installation\nThrough npm\n\n    npm install --save scaffold.css\n    \nThen import into your project\n    \n    import \'scaffold.css\';\n    \n<sub>or just embed scaffold.css into your project</sub>\n',
+21 silly publish   readme: '# Scaffold.css \nAn all in one normalizing CSS for scaffolding morden websites.\n\n## Overview \n* Minimal browser normalizations\n* 12-columns grid system\n* Common helpers\n\n## Installation\nThrough npm\n\n    npm install --save scaffold.css\n    \nImport into your project\n    \n    import \'path/to/node_modules/scaffold.css/scaffold.css\';\n    \n<sub>or just copy paste scaffold.css into your project</sub>\n',
 21 silly publish   readmeFilename: 'README.md',
-21 silly publish   gitHead: 'fd0378168e004e79a1fea13bcf570d771c23f897',
+21 silly publish   gitHead: '56b2eff725c5d3b560bc17b55840fa19e830b657',
 21 silly publish   _id: 'scaffold.css@1.0.6',
-21 silly publish   _shasum: '4b057df42e5719ba62b54ecc22e6f9cc204982e9',
+21 silly publish   _shasum: 'e0ec72a7d75e46a4c69c8ec1a54eb1787727e8d7',
 21 silly publish   _from: '.' }
 22 verbose getPublishConfig undefined
 23 silly mapToRegistry name scaffold.css
@@ -64,22 +64,22 @@
 29 silly publish uploading /Users/vincent/.npm/scaffold.css/1.0.6/package.tgz
 30 verbose request uri https://registry.npmjs.org/scaffold.css
 31 verbose request sending authorization for write operation
-32 info attempt registry request try #1 at 2:02:12 PM
+32 info attempt registry request try #1 at 2:03:17 PM
 33 verbose request using bearer token for auth
-34 verbose request id 072bc1517ba5ca92
+34 verbose request id 31876ce35b7e5c6b
 35 http request PUT https://registry.npmjs.org/scaffold.css
 36 http 403 https://registry.npmjs.org/scaffold.css
 37 verbose headers { 'content-type': 'application/json',
 37 verbose headers   'cache-control': 'max-age=300',
 37 verbose headers   'content-length': '95',
 37 verbose headers   'accept-ranges': 'bytes',
-37 verbose headers   date: 'Thu, 05 Jan 2017 06:02:13 GMT',
+37 verbose headers   date: 'Thu, 05 Jan 2017 06:03:17 GMT',
 37 verbose headers   via: '1.1 varnish',
 37 verbose headers   connection: 'keep-alive',
-37 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+37 verbose headers   'x-served-by': 'cache-hkg6820-HKG',
 37 verbose headers   'x-cache': 'MISS',
 37 verbose headers   'x-cache-hits': '0',
-37 verbose headers   'x-timer': 'S1483596132.699651,VS0,VE1002',
+37 verbose headers   'x-timer': 'S1483596197.424301,VS0,VE242',
 37 verbose headers   vary: 'Accept-Encoding' }
 38 verbose request invalidating /Users/vincent/.npm/registry.npmjs.org/scaffold.css on PUT
 39 error publish Failed PUT 403
