@@ -476,6 +476,7 @@ li {
 }
 button {
 	background-color: transparent;
+    border: none;
 }
 :hover,
 :active,

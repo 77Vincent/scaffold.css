@@ -11,8 +11,8 @@ Through npm
 
     npm install --save scaffold.css
     
-Then import into your project
+Import into your project
     
-    import 'scaffold.css';
+    import 'path/to/node_modules/scaffold.css/scaffold.css';
     
-<sub>or just embed scaffold.css into your project</sub>
+<sub>or just copy paste scaffold.css into your project</sub>
