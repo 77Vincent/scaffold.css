@@ -1,11 +1,10 @@
 {
   "name": "scaffold.css",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "All in one normalizing CSS for scaffolding modern websites.",
   "main": "scaffold.css",
   "style": "scaffold.css",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/77Vincent/scaffold.css.git"
@@ -21,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/77Vincent/scaffold.css/issues"
   },
-  "homepage": "https://github.com/77Vincent/scaffold.css#readme"
+  "homepage": "https://github.com/77Vincent/scaffold.css#readme",
+  "devDependencies": {
+    "normalize.css": "^5.0.0"
+  }
 }
