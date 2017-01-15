@@ -1,5 +1,5 @@
 # Scaffold.css 脚手架CSS
-An all in one normalizing CSS with other enhancements for scaffolding morden websites / 包括还原以及其他增强的初始化CSS
+An all in one normalizing CSS with other enhancements for scaffolding morden websites / 增强的初始化CSS
 
 ## Including ／ 包括 
 * Normalizations / 跨浏览器样式还原
@@ -29,21 +29,18 @@ Or / 或直接引入
 
 * Helper classes:
 
-    /* 12 columns grid */
     .col-1 { width: 8.33%; }
     .col-2 { width: 16.66%; }
     .col-3 { width: 25%; }
     ...
     .col-12 { width: 100%; }
 
-    /* Clear float */
     .clearfix {
         content: "";
         display: block;
         clear: both;
     }
 
-    /* Alignment */
     .text-align {
         text-align: center;
     }
