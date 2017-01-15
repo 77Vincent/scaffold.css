@@ -486,7 +486,7 @@ a, img {
     display: inline-block;
 }
 a, button {
-    cursor: pointer;
+    cursor: auto;
 }
 button {
 	background-color: transparent;
