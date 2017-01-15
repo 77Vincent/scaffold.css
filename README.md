@@ -17,16 +17,17 @@ Import in Javascript / 在JS里引入
 
 Import in Sass / 在Sass里引入
 
-    import 'path/to/node_modules/scaffold.css/scaffold.css';
+    @import 'path/to/node_modules/scaffold.css/scaffold.css';
 
 Or / 或直接引入
     
     <link rel="stylesheet" href="https://raw.githubusercontent.com/77Vincent/scaffold.css/master/scaffold.css">
 
 ## Features / 特性
-All elements are using box-sizing: border-box;
 
-Helper classes:
+##### All elements are using box-sizing: border-box;
+
+##### Helper classes:
 * 12 columns: col-1 col-2 col-3 ... col-12
 * clearfix
 
