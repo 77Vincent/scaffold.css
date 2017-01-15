@@ -25,9 +25,11 @@ Or / 或直接引入
 
 ## Features / 特性
 
-* All elements are using box-sizing: border-box;
+All elements are using ／ 所有的元素都使用border-box模型
 
-* Helper classes:
+    box-sizing: border-box;
+
+12-column grids class / 12纵列网格class:
 
     .col-1 { width: 8.33%; }
     .col-2 { width: 16.66%; }
@@ -35,11 +37,15 @@ Or / 或直接引入
     ...
     .col-12 { width: 100%; }
 
+Clearing float / 清除浮动: 
+
     .clearfix {
         content: "";
         display: block;
         clear: both;
     }
+
+Alignment / 对齐: 
 
     .text-align {
         text-align: center;
