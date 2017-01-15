@@ -1,7 +1,7 @@
 {
   "name": "scaffold.css",
-  "version": "1.0.9",
-  "description": "All in one normalizing CSS with other enhancements for scaffolding modern websites.",
+  "version": "1.0.10",
+  "description": "All in one normalizing CSS with other enhancements for scaffolding modern websites. / 增强的初始化CSS",
   "main": "scaffold.css",
   "style": "scaffold.css",
   "scripts": {},
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/77Vincent/scaffold.css.git"
   },
-  "keywords": [ "basic", "reset", "normalize", "normalise", "scaffold", "css", "reset.css", "basic.css", "normalize.css" ],
+  "keywords": [ "basic", "reset", "normalize", "normalise", "scaffold", "css", "reset.css", "basic.css", "normalize.css", "还原", "重置", "重设", "增强" ],
   "author": "77Vincent",
   "license": "MIT",
   "bugs": {

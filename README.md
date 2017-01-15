@@ -25,9 +25,26 @@ Or / 或直接引入
 
 ## Features / 特性
 
-##### All elements are using box-sizing: border-box;
+* All elements are using box-sizing: border-box;
 
-##### Helper classes:
-* 12 columns: col-1 col-2 col-3 ... col-12
-* clearfix
+* Helper classes:
+
+    /* 12 columns grid */
+    .col-1 { width: 8.33%; }
+    .col-2 { width: 16.66%; }
+    .col-3 { width: 25%; }
+    ...
+    .col-12 { width: 100%; }
+
+    /* Clear float */
+    .clearfix {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    /* Alignment */
+    .text-align {
+        text-align: center;
+    }
 

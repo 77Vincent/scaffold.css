@@ -501,10 +501,11 @@ table {
     display: block;
     clear: both;
 }
-
+.text-center { text-align: center; }
 /****************************************************/
 /* Grid System 
 /****************************************************/
+.col { float: left; }
 .col-12  { width: 100%; }
 .col-11  { width: 91.66%; }
 .col-10  { width: 83.33%; }
