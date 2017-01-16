@@ -1,13 +1,15 @@
-# Scaffold.css 脚手架CSS
-An all in one normalizing CSS with other enhancements for scaffolding morden websites / 增强的初始化CSS
+# Scaffold.css / 脚手架CSS
+
+#### An all in one normalizing CSS with other enhancements for scaffolding morden websites / 增强的初始化CSS
 
 ## Including ／ 包括 
+
 * Normalizations / 跨浏览器样式还原
 * Useful enhancements / 实用的增强
 * Common helpers / 基本辅助Class
 
-## Installation
-Through npm / 通过npm安装
+## Installation / 安装
+NPM
 
     npm install --save scaffold.css
     
@@ -27,7 +29,7 @@ Or / 或直接引入
 
 All elements are using ／ 所有的元素都使用border-box模型
 
-    box-sizing: border-box;
+    box-sizing: border-box;
 
 12-column grids class / 12纵列网格class:
 
