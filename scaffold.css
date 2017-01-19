@@ -482,9 +482,6 @@ li {
 a {
     color: inherit;
 }
-a, img {
-    display: inline-block;
-}
 a, button {
     cursor: auto;
 }
