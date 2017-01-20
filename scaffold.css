@@ -1,7 +1,7 @@
 /**
- * Title: scaffold.css 
- * Author: 77Vincent 
- * Reference: Partially fork from normalize.css 
+ * Title: scaffold.css
+ * Author: 77Vincent
+ * Reference: Partially fork from normalize.css
  */
 
 /* Document
@@ -466,7 +466,7 @@ li {
     margin: 0;
     padding: 0;
 }
-*, 
+*,
 *:after,
 *:before {
     vertical-align: baseline;
@@ -499,8 +499,9 @@ table {
     clear: both;
 }
 .text-center { text-align: center; }
+.text-right { text-align: right; }
 /****************************************************/
-/* Grid System 
+/* Grid System
 /****************************************************/
 .col { float: left; }
 .col-12  { width: 100%; }

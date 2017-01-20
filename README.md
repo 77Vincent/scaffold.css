@@ -41,7 +41,7 @@ import 'scaffold.css'
 ##### 所有的元素都使用border-box模型
 
 ```css
-*, 
+*,
 *:after,
 *:before {
     vertical-align: baseline;
@@ -97,4 +97,20 @@ button {
     background-color: transparent;
     border: none;
 }
+```
+
+#### No outline when element is got hover, active or focus
+##### 移除outline
+```css
+:hover,
+:active,
+:focus {
+    outline-width: 0;
+}
+```
+
+#### Correct color of anchor
+##### 修正锚点颜色
+```css
+a { color: inherit; }
 ```
