@@ -4,7 +4,9 @@
   "description": "All in one normalize CSS with enhancements to scaffold modern websites. / 增强的初始化CSS",
   "main": "scaffold.css",
   "style": "scaffold.css",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/77Vincent/scaffold.css.git"
