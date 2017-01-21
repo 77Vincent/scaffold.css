@@ -3,13 +3,13 @@
 <a href="https://travis-ci.org/77Vincent/scaffold.css"><img src="https://travis-ci.org/77Vincent/scaffold.css.svg?branch=master"></a>
 <a href="https://www.npmjs.com/package/scaffold.css"><img src="https://img.shields.io/badge/npm-v1.0.13-blue.svg"></a>
 
-#### An all in one normalizing CSS with enhancements. / 增强的初始化CSS
+#### An all in one normalizing CSS with enhancements and helpers. / 增强的初始化CSS
 
 ## Including ／ 包括
 
-##### Nomalizing / 跨浏览器样式还原
-##### Useful enhancements / 实用的增强
-##### Common helpers / 辅助Class
+* Nomalizing / 跨浏览器样式还原
+* Useful enhancements / 实用的增强
+* Common helpers / 辅助Class
 
 ## Installation / 安装
 #### NPM
@@ -108,4 +108,7 @@ button {
 ```
 
 ## Normalizing / 标准化
-##### Mostly fork from <a href="https://github.com/necolas/normalize.css">necolas/normalize.css</a>
+Mostly fork from <a href="https://github.com/necolas/normalize.css">necolas/normalize.css</a>
+
+## Browser support / 浏览器支持
+Internet Explorer 8+
