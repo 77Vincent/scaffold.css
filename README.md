@@ -1,6 +1,7 @@
 # Scaffold.css / 脚手架CSS
 
 <a href="https://travis-ci.org/77Vincent/scaffold.css"><img src="https://travis-ci.org/77Vincent/scaffold.css.svg?branch=master"></a>
+<a href="https://www.npmjs.com/package/scaffold.css"><img src="https://img.shields.io/badge/npm-v1.0.13-blue.svg"></a>
 
 #### An all in one normalizing CSS with enhancements. / 增强的初始化CSS
 
