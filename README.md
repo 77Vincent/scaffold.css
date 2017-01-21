@@ -3,7 +3,7 @@
 <a href="https://travis-ci.org/77Vincent/scaffold.css"><img src="https://travis-ci.org/77Vincent/scaffold.css.svg?branch=master"></a>
 <a href="https://www.npmjs.com/package/scaffold.css"><img src="https://img.shields.io/badge/npm-v1.0.13-blue.svg"></a>
 
-#### An all in one normalizing CSS with enhancements and helpers. / 增强的初始化CSS
+#### An all in one normalize CSS with enhancements and helpers. / 增强的初始化CSS
 
 ## Including ／ 包括
 
