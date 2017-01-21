@@ -458,11 +458,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
     font-style: normal;
 }
-ul {
-    margin: 0;
-    padding: 0;
-}
-li {
+ol, ul {
     margin: 0;
     padding: 0;
 }
@@ -479,12 +475,7 @@ li {
 :focus {
     outline-width: 0;
 }
-a {
-    color: inherit;
-}
-a, button {
-    cursor: auto;
-}
+a { color: inherit; }
 button {
 	background-color: transparent;
     border: none;
@@ -493,15 +484,8 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-.clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-.text-center { text-align: center; }
-.text-right { text-align: right; }
 /****************************************************/
-/* Grid System
+/* Helpers
 /****************************************************/
 .col { float: left; }
 .col-12  { width: 100%; }
@@ -516,3 +500,10 @@ table {
 .col-3   { width: 25%; }
 .col-2   { width: 16.66%; }
 .col-1   { width: 8.33%; }
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center { text-align: center; }
+.text-right { text-align: right; }

@@ -1,6 +1,6 @@
 {
   "name": "scaffold.css",
-  "version": "1.0.13",
+  "version": "1.1.0",
   "description": "All in one normalize CSS with enhancements to scaffold modern websites. / 增强的初始化CSS",
   "main": "scaffold.css",
   "style": "scaffold.css",
