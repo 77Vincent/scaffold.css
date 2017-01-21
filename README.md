@@ -41,45 +41,57 @@ import 'scaffold.css';
 
 ```css
 html {
-    font-size: 1em;
+  font-size: 1em;
 }
-
-html, body {
-    margin: 0px;
-    padding: 0px;
+ 
+html,
+body {                                                                                                                                                        
+  margin: 0;
+  padding: 0;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-    font-style: normal;
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-style: normal;
 }
-
-ol, ul {
-    margin: 0;
-    padding: 0;
+ 
+ol,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 *,
-*:after,
-*:before {
-    vertical-align: baseline;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+*::after,
+*::before {
+  vertical-align: baseline;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
-
+ 
 :hover,
 :active,                                                                                                                                                      
 :focus {
-    outline-width: 0;
+  outline-width: 0;
 }
-
+ 
 a { color: inherit; }
-
-button {           
-    background-color: transparent;
-    border: none;                                                                                                                           
-}      
+ 
+button {
+  background-color: transparent;
+  border: none;
+}
+ 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 ```
 
 ## Helpers / 辅助Class
