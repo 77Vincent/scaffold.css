@@ -1,43 +1,42 @@
-# Scaffold.css  /  脚手架CSS
+# Scaffold.css
 
 <a href="https://travis-ci.org/77Vincent/scaffold.css"><img src="https://travis-ci.org/77Vincent/scaffold.css.svg?branch=master"></a>
 <a href="https://www.npmjs.com/package/scaffold.css"><img src="https://img.shields.io/badge/npm-v1.1.0-blue.svg"></a>
 <a href="https://github.com/77Vincent/scaffold.css/blob/master/LICENSE"><img src="https://img.shields.io/badge/lisence-MIT-blue.svg"></a>
 
-#### An all in one normalize CSS with enhancements and helpers. / 增强的初始化CSS
+#### An all in one normalize CSS with enhancements and helpers.
+## Including
 
-## Including ／ 包括
+* Nomalizing
+* Useful enhancements
+* Common helpers
 
-* Nomalizing / 跨浏览器样式还原
-* Useful enhancements / 实用的增强
-* Common helpers / 辅助Class
-
-## Installation / 安装
+## Installation
 #### NPM
 
 ```sh
 npm install --save scaffold.css
 ```
 
-#### Import in Javascript (Recommended) / 在JS里引入 (推荐方式)
+#### Import in Javascript (Recommended)
 
 ```js
 import 'scaffold.css';
 ```
 
-#### Import in Sass / 在Sass里引入
+#### Import in Sass
 
 ```scss
 @import 'path/to/node_modules/scaffold.css/scaffold.css';
 ```
 
-#### Or / 或直接引入
+#### Or
 
 ```html
 <link rel="stylesheet" href="https://raw.githubusercontent.com/77Vincent/scaffold.css/master/scaffold.css">
 ```
 
-## Enhancemens / 增强特性
+## Enhancemens
 
 ```css
 html {
@@ -94,9 +93,9 @@ table {
 }
 ```
 
-## Helpers / 辅助Class
+## Helpers
 
-#### 12-column grids class / 12纵列网格class
+#### 12-column grids class
 ```css
 .col-1 { width: 8.33%; }
 .col-2 { width: 16.66%; }
@@ -105,7 +104,7 @@ table {
 .col-12 { width: 100%; }
 ```
 
-#### Clearing float / 清除浮动
+#### Clearing float
 ```css
 .clearfix {
     content: "";
@@ -114,14 +113,14 @@ table {
 }
 ```
 
-#### Alignment / 对齐
+#### Alignment
 ```css
 .text-center { text-align: center; }
 .text-right { text-align: right; }
 ```
 
-## Normalizing / 标准化
+## Normalizing
 Mostly fork from <a href="https://github.com/necolas/normalize.css">necolas/normalize.css</a>
 
-## Browser support / 浏览器支持
+## Browser support
 Internet Explorer 8+
