@@ -4,24 +4,102 @@
  * Reference: Partially fork from normalize.css
  */
 
+/****************************************************
+ Normalize & Enhancement
+****************************************************/
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  vertical-align: baseline;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:hover,
+:active,
+:focus {
+  outline-width: 0;
+}
+
+a { color: inherit; }
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****************************************************
+Helpers
+****************************************************/
+.col { float: left; }
+.col-12 { width: 100%; }
+.col-11 { width: 91.66%; }
+.col-10 { width: 83.33%; }
+.col-9 { width: 75%; }
+.col-8 { width: 66.66%; }
+.col-7 { width: 58.33%; }
+.col-6 { width: 50%; }
+.col-5 { width: 41.66%; }
+.col-4 { width: 33.33%; }
+.col-3 { width: 25%; }
+.col-2 { width: 16.66%; }
+.col-1 { width: 8.33%; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+
 /* Document
    ========================================================================== */
 
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+
 html {
-  -ms-text-size-adjust: 100%; /* 3 */
-  -webkit-text-size-adjust: 100%; /* 3 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
    ========================================================================== */
-
-/**
- * Remove the margin in all browsers (opinionated).
- */
-
-body {
-  margin: 0;
-}
 
 /**
  * Add the correct display in IE 9-.
@@ -85,7 +163,7 @@ hr {
  */
 
 pre {
-  font-family: monospace; /* 1 */
+  font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -103,7 +181,7 @@ a {
 }
 
 /**
- * 1. Remove the bottom border in Firefox 39-.
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 
@@ -139,7 +217,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace; /* 1 */
+  font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -230,8 +308,7 @@ svg:not(:root) {
    ========================================================================== */
 
 /**
- * 1. Change the font styles in all browsers (opinionated).
- * 2. Remove the margin in Firefox and Safari.
+ * Remove the margin in Firefox and Safari.
  */
 
 button,
@@ -239,10 +316,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  margin: 0;
 }
 
 /**
@@ -299,16 +373,6 @@ button:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
-}
-
-/**
- * Change the border, margin, and padding in all browsers (opinionated).
- */
-
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
 }
 
 /**
@@ -444,85 +508,3 @@ template {
 [hidden] {
   display: none;
 }
-
-/****************************************************
- Normalize & Enhancement
-****************************************************/
-html {
-  font-size: 1em;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: normal;
-  font-style: normal;
-}
-
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-*,
-*::after,
-*::before {
-  vertical-align: baseline;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-:hover,
-:active,
-:focus {
-  outline-width: 0;
-}
-
-a { color: inherit; }
-
-button {
-  background-color: transparent;
-  border: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/****************************************************
-Helpers
-****************************************************/
-.col { float: left; }
-.col-12 { width: 100%; }
-.col-11 { width: 91.66%; }
-.col-10 { width: 83.33%; }
-.col-9 { width: 75%; }
-.col-8 { width: 66.66%; }
-.col-7 { width: 58.33%; }
-.col-6 { width: 50%; }
-.col-5 { width: 41.66%; }
-.col-4 { width: 33.33%; }
-.col-3 { width: 25%; }
-.col-2 { width: 16.66%; }
-.col-1 { width: 8.33%; }
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.text-center { text-align: center; }
-.text-right { text-align: right; }

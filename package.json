@@ -1,6 +1,6 @@
 {
   "name": "scaffold.css",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "All in one normalize CSS with enhancements to scaffold modern websites. / 增强的初始化CSS",
   "main": "scaffold.css",
   "style": "scaffold.css",
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/77Vincent/scaffold.css#readme",
   "devDependencies": {
-    "normalize.css": "^5.0.0",
+    "normalize.css": "^6.0.0",
     "stylelint": "^7.7.1",
     "stylelint-config-standard": "^15.0.1"
   },
