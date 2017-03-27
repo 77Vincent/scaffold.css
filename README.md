@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/77Vincent/scaffold.css.svg?branch=master)](https://travis-ci.org/77Vincent/scaffold.css)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-#### An all in one normalize CSS with enhancements and helpers.
+All in one normalize CSS with enhancements and helpers to scaffold mordern websites.
 ## Including
 
 * Nomalizing
@@ -38,12 +38,8 @@ import 'scaffold.css';
 ## Enhancemens
 
 ```css
-html {
-  font-size: 1em;
-}
- 
 html,
-body {                                                                                                                                                        
+body {                      
   margin: 0;
   padding: 0;
 }
@@ -114,8 +110,9 @@ table {
 
 #### Alignment
 ```css
-.text-center { text-align: center; }
-.text-right { text-align: right; }
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
 ```
 
 ## Normalizing
